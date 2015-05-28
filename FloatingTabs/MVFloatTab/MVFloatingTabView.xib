@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MVFloatingTabView">
+            <rect key="frame" x="0.0" y="0.0" width="266" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rtt-Nl-cDL">
+                    <rect key="frame" x="0.0" y="0.0" width="266" height="80"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jum-da-Zsc" customClass="FloatingSideButton">
+                    <rect key="frame" x="155" y="14" width="111" height="54"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdY-AP-MBg">
+                            <rect key="frame" x="0.0" y="0.0" width="111" height="54"/>
+                            <color key="backgroundColor" red="0.42352941179999998" green="0.7725490196" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Right Button">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="gdY-AP-MBg" secondAttribute="trailing" id="28q-hC-8gE"/>
+                        <constraint firstItem="gdY-AP-MBg" firstAttribute="leading" secondItem="jum-da-Zsc" secondAttribute="leading" id="9vs-fe-Ku7"/>
+                        <constraint firstAttribute="bottom" secondItem="gdY-AP-MBg" secondAttribute="bottom" id="Wil-6B-TBM"/>
+                        <constraint firstItem="gdY-AP-MBg" firstAttribute="top" secondItem="jum-da-Zsc" secondAttribute="top" id="caI-Py-KY0"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="button" destination="gdY-AP-MBg" id="fHD-MQ-3m2"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D0I-U5-NYW" customClass="FloatingSideButton">
+                    <rect key="frame" x="0.0" y="14" width="111" height="54"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNk-ko-MZh">
+                            <rect key="frame" x="0.0" y="0.0" width="111" height="54"/>
+                            <color key="backgroundColor" red="0.42352941179999998" green="0.7725490196" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Left Button">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="aNk-ko-MZh" firstAttribute="height" secondItem="D0I-U5-NYW" secondAttribute="height" id="E54-RP-92A"/>
+                        <constraint firstItem="aNk-ko-MZh" firstAttribute="width" secondItem="D0I-U5-NYW" secondAttribute="width" id="SSX-Oy-jJB"/>
+                        <constraint firstItem="aNk-ko-MZh" firstAttribute="top" secondItem="D0I-U5-NYW" secondAttribute="top" id="cES-p5-gd0"/>
+                        <constraint firstItem="aNk-ko-MZh" firstAttribute="leading" secondItem="D0I-U5-NYW" secondAttribute="leading" id="vAV-dm-xie"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="button" destination="aNk-ko-MZh" id="KXY-PI-dpo"/>
+                    </connections>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CGN-nO-t4K" customClass="MVFloatCenterTab">
+                    <rect key="frame" x="93" y="0.0" width="80" height="80"/>
+                    <color key="backgroundColor" red="0.95294117649999999" green="0.36470588240000001" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="CGN-nO-t4K" secondAttribute="height" multiplier="1:1" id="vNq-eo-dCs"/>
+                    </constraints>
+                    <connections>
+                        <action selector="toggleAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Vpg-4P-hjY"/>
+                        <outlet property="imgView" destination="sJU-A7-1ZF" id="4qB-km-5iT"/>
+                    </connections>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plus.png" translatesAutoresizingMaskIntoConstraints="NO" id="sJU-A7-1ZF">
+                    <rect key="frame" x="117" y="24" width="33" height="33"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Rtt-Nl-cDL" firstAttribute="width" secondItem="jum-da-Zsc" secondAttribute="width" multiplier="2.4" id="2LR-ox-Nti"/>
+                <constraint firstItem="jum-da-Zsc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="14" id="2QE-ag-qgs"/>
+                <constraint firstAttribute="trailing" secondItem="Rtt-Nl-cDL" secondAttribute="trailing" id="3TG-G4-4H3"/>
+                <constraint firstAttribute="bottom" secondItem="CGN-nO-t4K" secondAttribute="bottom" id="6Jt-DQ-oL7"/>
+                <constraint firstAttribute="centerX" secondItem="CGN-nO-t4K" secondAttribute="centerX" id="7X8-hs-svO"/>
+                <constraint firstAttribute="bottom" secondItem="D0I-U5-NYW" secondAttribute="bottom" constant="12" id="9D9-Eo-EFd"/>
+                <constraint firstItem="Rtt-Nl-cDL" firstAttribute="width" secondItem="D0I-U5-NYW" secondAttribute="width" multiplier="2.4" id="AG2-ti-RQ3"/>
+                <constraint firstItem="CGN-nO-t4K" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KSS-RT-eWM"/>
+                <constraint firstAttribute="trailing" secondItem="jum-da-Zsc" secondAttribute="trailing" id="MKW-EV-v2p"/>
+                <constraint firstItem="D0I-U5-NYW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="14" id="MjT-l7-rNx"/>
+                <constraint firstAttribute="bottom" secondItem="jum-da-Zsc" secondAttribute="bottom" constant="12" id="N68-e9-xFh"/>
+                <constraint firstAttribute="bottom" secondItem="Rtt-Nl-cDL" secondAttribute="bottom" id="Qws-hY-u1e"/>
+                <constraint firstItem="Rtt-Nl-cDL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Qy4-0G-NK7"/>
+                <constraint firstAttribute="centerY" secondItem="CGN-nO-t4K" secondAttribute="centerY" id="hKZ-E9-rHf"/>
+                <constraint firstItem="Rtt-Nl-cDL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nx4-rM-RDR"/>
+                <constraint firstItem="D0I-U5-NYW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rnF-7m-stK"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="centerButton" destination="CGN-nO-t4K" id="zM5-ee-KCc"/>
+                <outlet property="gestureView" destination="Rtt-Nl-cDL" id="CCQ-DY-cIu"/>
+                <outlet property="leftButton" destination="D0I-U5-NYW" id="PNb-mo-VOA"/>
+                <outlet property="rightButton" destination="jum-da-Zsc" id="Avd-pu-clH"/>
+            </connections>
+            <point key="canvasLocation" x="335" y="218"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="plus.png" width="256" height="256"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

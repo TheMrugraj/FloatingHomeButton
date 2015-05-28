@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9C688A11B171328002BD5F5 /* FloatingSideButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C688A01B171328002BD5F5 /* FloatingSideButton.m */; };
+		A9C688A41B17135D002BD5F5 /* MVFloatCenterTab.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C688A31B17135D002BD5F5 /* MVFloatCenterTab.m */; };
+		A9C688A71B171808002BD5F5 /* MVFloatingTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C688A61B171808002BD5F5 /* MVFloatingTabView.m */; };
+		A9C688A91B17184E002BD5F5 /* MVFloatingTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C688A81B17184E002BD5F5 /* MVFloatingTabView.xib */; };
+		A9C688AC1B172223002BD5F5 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C688AA1B172223002BD5F5 /* home.png */; };
+		A9C688AD1B172223002BD5F5 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C688AB1B172223002BD5F5 /* plus.png */; };
+		A9D68EB81B15E305000FB683 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D68EB71B15E305000FB683 /* main.m */; };
+		A9D68EBB1B15E305000FB683 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D68EBA1B15E305000FB683 /* AppDelegate.m */; };
+		A9D68EBE1B15E305000FB683 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D68EBD1B15E305000FB683 /* ViewController.m */; };
+		A9D68EC11B15E305000FB683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D68EBF1B15E305000FB683 /* Main.storyboard */; };
+		A9D68EC31B15E305000FB683 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D68EC21B15E305000FB683 /* Images.xcassets */; };
+		A9D68EC61B15E305000FB683 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9D68EC41B15E305000FB683 /* LaunchScreen.xib */; };
+		A9D68ED21B15E306000FB683 /* FloatingTabsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D68ED11B15E306000FB683 /* FloatingTabsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9D68ECC1B15E306000FB683 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9D68EAA1B15E305000FB683 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9D68EB11B15E305000FB683;
+			remoteInfo = FloatingTabs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9C6889F1B171328002BD5F5 /* FloatingSideButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatingSideButton.h; sourceTree = "<group>"; };
+		A9C688A01B171328002BD5F5 /* FloatingSideButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatingSideButton.m; sourceTree = "<group>"; };
+		A9C688A21B17135D002BD5F5 /* MVFloatCenterTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVFloatCenterTab.h; sourceTree = "<group>"; };
+		A9C688A31B17135D002BD5F5 /* MVFloatCenterTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVFloatCenterTab.m; sourceTree = "<group>"; };
+		A9C688A51B171808002BD5F5 /* MVFloatingTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVFloatingTabView.h; sourceTree = "<group>"; };
+		A9C688A61B171808002BD5F5 /* MVFloatingTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVFloatingTabView.m; sourceTree = "<group>"; };
+		A9C688A81B17184E002BD5F5 /* MVFloatingTabView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVFloatingTabView.xib; sourceTree = "<group>"; };
+		A9C688AA1B172223002BD5F5 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		A9C688AB1B172223002BD5F5 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		A9D68EB21B15E305000FB683 /* FloatingTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D68EB61B15E305000FB683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D68EB71B15E305000FB683 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9D68EB91B15E305000FB683 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9D68EBA1B15E305000FB683 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9D68EBC1B15E305000FB683 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9D68EBD1B15E305000FB683 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9D68EC01B15E305000FB683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9D68EC21B15E305000FB683 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9D68EC51B15E305000FB683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9D68ECB1B15E306000FB683 /* FloatingTabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingTabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D68ED01B15E306000FB683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D68ED11B15E306000FB683 /* FloatingTabsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatingTabsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9D68EAF1B15E305000FB683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D68EC81B15E306000FB683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9C6889E1B171314002BD5F5 /* MVFloatTab */ = {
+			isa = PBXGroup;
+			children = (
+				A9C688AA1B172223002BD5F5 /* home.png */,
+				A9C688AB1B172223002BD5F5 /* plus.png */,
+				A9C6889F1B171328002BD5F5 /* FloatingSideButton.h */,
+				A9C688A01B171328002BD5F5 /* FloatingSideButton.m */,
+				A9C688A21B17135D002BD5F5 /* MVFloatCenterTab.h */,
+				A9C688A31B17135D002BD5F5 /* MVFloatCenterTab.m */,
+				A9C688A51B171808002BD5F5 /* MVFloatingTabView.h */,
+				A9C688A61B171808002BD5F5 /* MVFloatingTabView.m */,
+				A9C688A81B17184E002BD5F5 /* MVFloatingTabView.xib */,
+			);
+			path = MVFloatTab;
+			sourceTree = "<group>";
+		};
+		A9D68EA91B15E305000FB683 = {
+			isa = PBXGroup;
+			children = (
+				A9D68EB41B15E305000FB683 /* FloatingTabs */,
+				A9D68ECE1B15E306000FB683 /* FloatingTabsTests */,
+				A9D68EB31B15E305000FB683 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9D68EB31B15E305000FB683 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D68EB21B15E305000FB683 /* FloatingTabs.app */,
+				A9D68ECB1B15E306000FB683 /* FloatingTabsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9D68EB41B15E305000FB683 /* FloatingTabs */ = {
+			isa = PBXGroup;
+			children = (
+				A9C6889E1B171314002BD5F5 /* MVFloatTab */,
+				A9D68EB91B15E305000FB683 /* AppDelegate.h */,
+				A9D68EBA1B15E305000FB683 /* AppDelegate.m */,
+				A9D68EBC1B15E305000FB683 /* ViewController.h */,
+				A9D68EBD1B15E305000FB683 /* ViewController.m */,
+				A9D68EBF1B15E305000FB683 /* Main.storyboard */,
+				A9D68EC21B15E305000FB683 /* Images.xcassets */,
+				A9D68EC41B15E305000FB683 /* LaunchScreen.xib */,
+				A9D68EB51B15E305000FB683 /* Supporting Files */,
+			);
+			path = FloatingTabs;
+			sourceTree = "<group>";
+		};
+		A9D68EB51B15E305000FB683 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9D68EB61B15E305000FB683 /* Info.plist */,
+				A9D68EB71B15E305000FB683 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9D68ECE1B15E306000FB683 /* FloatingTabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9D68ED11B15E306000FB683 /* FloatingTabsTests.m */,
+				A9D68ECF1B15E306000FB683 /* Supporting Files */,
+			);
+			path = FloatingTabsTests;
+			sourceTree = "<group>";
+		};
+		A9D68ECF1B15E306000FB683 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9D68ED01B15E306000FB683 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9D68EB11B15E305000FB683 /* FloatingTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D68ED51B15E306000FB683 /* Build configuration list for PBXNativeTarget "FloatingTabs" */;
+			buildPhases = (
+				A9D68EAE1B15E305000FB683 /* Sources */,
+				A9D68EAF1B15E305000FB683 /* Frameworks */,
+				A9D68EB01B15E305000FB683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatingTabs;
+			productName = FloatingTabs;
+			productReference = A9D68EB21B15E305000FB683 /* FloatingTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9D68ECA1B15E306000FB683 /* FloatingTabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D68ED81B15E306000FB683 /* Build configuration list for PBXNativeTarget "FloatingTabsTests" */;
+			buildPhases = (
+				A9D68EC71B15E306000FB683 /* Sources */,
+				A9D68EC81B15E306000FB683 /* Frameworks */,
+				A9D68EC91B15E306000FB683 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9D68ECD1B15E306000FB683 /* PBXTargetDependency */,
+			);
+			name = FloatingTabsTests;
+			productName = FloatingTabsTests;
+			productReference = A9D68ECB1B15E306000FB683 /* FloatingTabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9D68EAA1B15E305000FB683 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = MV;
+				TargetAttributes = {
+					A9D68EB11B15E305000FB683 = {
+						CreatedOnToolsVersion = 6.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					A9D68ECA1B15E306000FB683 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A9D68EB11B15E305000FB683;
+					};
+				};
+			};
+			buildConfigurationList = A9D68EAD1B15E305000FB683 /* Build configuration list for PBXProject "FloatingTabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9D68EA91B15E305000FB683;
+			productRefGroup = A9D68EB31B15E305000FB683 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9D68EB11B15E305000FB683 /* FloatingTabs */,
+				A9D68ECA1B15E306000FB683 /* FloatingTabsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9D68EB01B15E305000FB683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D68EC11B15E305000FB683 /* Main.storyboard in Resources */,
+				A9C688AC1B172223002BD5F5 /* home.png in Resources */,
+				A9D68EC61B15E305000FB683 /* LaunchScreen.xib in Resources */,
+				A9D68EC31B15E305000FB683 /* Images.xcassets in Resources */,
+				A9C688A91B17184E002BD5F5 /* MVFloatingTabView.xib in Resources */,
+				A9C688AD1B172223002BD5F5 /* plus.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D68EC91B15E306000FB683 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9D68EAE1B15E305000FB683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D68EBE1B15E305000FB683 /* ViewController.m in Sources */,
+				A9D68EBB1B15E305000FB683 /* AppDelegate.m in Sources */,
+				A9D68EB81B15E305000FB683 /* main.m in Sources */,
+				A9C688A71B171808002BD5F5 /* MVFloatingTabView.m in Sources */,
+				A9C688A41B17135D002BD5F5 /* MVFloatCenterTab.m in Sources */,
+				A9C688A11B171328002BD5F5 /* FloatingSideButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D68EC71B15E306000FB683 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D68ED21B15E306000FB683 /* FloatingTabsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9D68ECD1B15E306000FB683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9D68EB11B15E305000FB683 /* FloatingTabs */;
+			targetProxy = A9D68ECC1B15E306000FB683 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9D68EBF1B15E305000FB683 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D68EC01B15E305000FB683 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9D68EC41B15E305000FB683 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9D68EC51B15E305000FB683 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9D68ED31B15E306000FB683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9D68ED41B15E306000FB683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9D68ED61B15E306000FB683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FloatingTabs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9D68ED71B15E306000FB683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FloatingTabs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9D68ED91B15E306000FB683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FloatingTabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatingTabs.app/FloatingTabs";
+			};
+			name = Debug;
+		};
+		A9D68EDA1B15E306000FB683 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FloatingTabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatingTabs.app/FloatingTabs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9D68EAD1B15E305000FB683 /* Build configuration list for PBXProject "FloatingTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D68ED31B15E306000FB683 /* Debug */,
+				A9D68ED41B15E306000FB683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D68ED51B15E306000FB683 /* Build configuration list for PBXNativeTarget "FloatingTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D68ED61B15E306000FB683 /* Debug */,
+				A9D68ED71B15E306000FB683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D68ED81B15E306000FB683 /* Build configuration list for PBXNativeTarget "FloatingTabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D68ED91B15E306000FB683 /* Debug */,
+				A9D68EDA1B15E306000FB683 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9D68EAA1B15E305000FB683 /* Project object */;
+}
