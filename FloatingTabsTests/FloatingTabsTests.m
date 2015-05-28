@@ -2,7 +2,7 @@
 //  FloatingTabsTests.m
 //  FloatingTabsTests
 //
-//  Created by indianic on 27/05/15.
+//  Created by Mrugrajsinh Vansadia on 27/05/15.
 //  Copyright (c) 2015 MV. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  MVFloatingTabView.h
 //  FloatingTabs
 //
-//  Created by indianic on 28/05/15.
+//  Created by Mrugrajsinh Vansadia on 28/05/15.
 //  Copyright (c) 2015 MV. All rights reserved.
 //
 
